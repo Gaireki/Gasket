@@ -1,0 +1,1 @@
+I tried using switch on this project but it seems like it wont let me do it. When im trying to create a case for it. the value when I'm comparing does not regiester since there's is an innate calculation performed during the execution.
