@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasket seat</title>
+    <link rel="styleSheet" href="style.css">
+</head>
+<h1>
+    Gasket seat
+</h1>
+<body>
+    <div id="div1">
+        <label>Gasket width,W (mm)</label><br>
+        <input type="text" id="gasketWidth">
+        <label type="text" for="gasketWidth" id="gasketWidth_err"></label><br><br>
+        <label>Radial projection, Rd (mm)</label><br>
+        <input type="text" id="radialProjection">
+        <label type="text" for="radialProjection" id="radialProj_err"></label><br><br>
+        <label>Depth, d (mm)</label><br>
+        <input type="text" id="d_depth">
+        <label type="text" for="d_depth" id="d_depth_err"></label><br><br><br>
+        <input type="radio" id="hardGasket" name="gasket_Type">
+        <label for="hardGasket">Hard Gasket</label><br><br>
+        <input type="radio" id="softGasket" name="gasket_Type">
+        <label for="softGasket">Soft Gasket</label><br><br>
+        <button type="submit" id="submitBtn">Submit</button>
+        <button type="reset" id="resetBtn">Reset</button>
+
+    </div>
+    <p>All measurement must be in milimeter (mm)!</p>
+    <p>Please input only number into the boxes!</p>
+    <p id="myH2"></p>
+    <p id="myH1"></p>
+    
+
+   
+    <div>
+        <p id="pidot">Built by Pidot</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
